@@ -1,0 +1,265 @@
+@media(max-width: 768px){
+	.footer-txt{
+		font-size: 14px;
+	}
+	.footer{
+		height: 300px;
+	}
+	.form-group{
+		position: relative;
+	}
+	.btn-default,textarea{
+		margin:0px 15px 0px 15px;
+	}
+	input#exampleInputName2.form-control,input#exampleInputEmail2.form-control{
+		display: inline-block;
+		margin:0px 15px 0px 15px; !important
+		width: 50px; !important
+	}
+	.form-control{
+		width: 250px;
+	}
+	#menu-toggle{
+		margin-left: 15px;
+	}
+}
+html{
+	position: relative;
+	min-height: 100%;
+	height: 100vh;
+}
+body{
+	margin-top: 0px;
+	background-color: #eee;
+	background: url(../img/bg.jpg);
+	background-attachment: fixed;
+}
+a,a:focus{
+	text-decoration: none;
+	color: #22E2ED;
+}
+legend{
+	line-height: inherit;
+	border: none;
+	text-align: center;
+	font-size: 40px;
+	color: #22E2ED;
+}
+textarea{
+	margin-bottom: 50px;
+}
+input{
+}
+input:last-child{
+	margin-left: 25px;
+	margin-right: 50px;
+}
+a:hover{
+	text-decoration: none;
+	color: #22E2ED;
+}
+.hvr-underline-reveal:before{
+	background-color: #22E2ED;
+	text-align: center;
+}
+.col-md-1,.col-xs-1{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px;
+	padding: 10px;
+}
+.activated{
+	border-bottom: 4px solid #22E2ED;
+	margin-top: 7px;
+	padding-top: 14px;
+}
+.navbar{
+	background-color: #404855;
+}
+.slide-box{
+	margin-top:100px;
+}
+.mob-header{
+	height: 60px;
+	border: 1px solid #22E2ED;
+	background-color: #404855;
+	margin-top: 0px;
+}
+#menu-toggle{
+	background-color: #404855;
+	margin: 0px 0px 10px 15px;
+	border: none;
+}
+#sidebar-wrapper{
+	background-color: rgba(0,77,89,0.7);
+	color: black;
+}
+.background{
+	height: 100vh;
+	background-color: rgba(0,0,0,0.3);
+}
+.col-xs-12{
+	padding: 0px;
+}
+.navbar-default{
+	border-color: #22E2ED;
+}
+.even-cont{
+	border:1px solid #22E2ED;
+}
+.even-div{
+	background-color: #323232;
+	border:1px solid #22E2ED;
+	padding: 0px;
+	color: #fff;
+	border-left: none;
+	border-right: none;
+}
+.odd-div{
+	background-color: #404855;
+	border:1px solid #22E2ED;
+	padding: 0px;
+	color: #fff;
+	border-left: none;
+	border-right: none;
+}
+.leaders{
+	border:2px solid #22E2ED;
+	color: white;
+	border-bottom: none;
+	border-left: none;
+	text-align: center;
+}
+.servers>h1{
+	font-size: 40px;
+}
+.servers{
+	border:2px solid #22E2ED;
+	color: white;
+	border-bottom: none;
+	border-left: none;
+	text-align: center;
+}
+.servers>h1{
+	font-size: 40px;
+}
+.rozo-des{
+	padding: 25px;
+}
+.rozo-des>p{
+	margin-top: 25px;
+	font-size: 22px;
+}
+.pro,.cw{
+	border-right: none;
+}
+.fobia{
+	border-right: none;
+}
+.youtube{
+	background-color: rgba(171, 11, 11, 0.75);
+}
+.playback{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.subscribe{
+	direction: rtl;
+}
+.sub-btn{
+	width: 50%;
+	height: 50%;
+	margin-top:25px;
+}
+.sub-link{
+
+}
+.footer{
+	background-color: #404855;
+	bottom: 0px;
+	height: 30vh;
+}
+.barcode>img{
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+}
+.footer-txt{
+	margin-top: 15px;
+	color: #fff;
+	font-size: 18px;
+	bottom: 0px;
+}
+.fa{
+	margin: 15px 0px 0px 15px;
+	color: #fff;
+}
+.container-fluid{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mob-wlc{
+	background-color: #404855;
+}
+.btn-primary{
+	margin-bottom: 15px;
+	background-color: transparent;
+	border: 1px solid #22E2ED;
+}
+.btn.btn-primary.hidden-xs.main-forum{
+	width: 200px;
+	height: 50px;
+	bottom: 0 !important;
+}
+.btn-primary:hover{
+	margin-bottom: 15px;
+	background-color: rgba(171, 11, 11, 0.75);
+	border: 1px solid rgba(171, 11, 11, 0.75);
+}
+.main-forum,.main-site{
+	margin:200px 15px 0px 0px;
+	width: 150px;
+	border:none;
+	background-color: rgba(171, 11, 11, 0.75);
+}
+.main-forum:hover,.main-site:hover{
+	margin:100px 15px 0px 0px;
+	width: 150px;
+	border:none;
+	background-color: rgba(171, 11, 11, 0.75);
+	color: #22E2ED;
+}
+.main-forum:focus,.main-site:focus{
+	margin:100px 15px 0px 0px;
+	width: 150px;
+	border:none;
+	background-color: rgba(171, 11, 11, 0.75);
+	color: #22E2ED;
+}
+.main-forum,.main-forum:hover{
+	margin-top: 100px;
+}
+.hideme{
+    opacity:0;
+}
+footer{
+	position: relative;
+}
+footer>.container-fluid{
+	position: relative;
+}
+footer>.row>{
+	position: absolute;
+	width: 100%;
+	height: 100% !important;
+}
+.icons{
+	position: absolute;
+	bottom: 0;
+	margin-left: 195px;
+}
+.fblood{
+	border-right: none;
+}
